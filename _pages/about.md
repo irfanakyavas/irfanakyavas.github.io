@@ -19,7 +19,7 @@ I aspire to build a career in research where I firmly believe that I can put my 
 _________________
 
 ## Fields of Interest
-I have past experience studying and working on problems from Modern & Classical Control Systems Theory; Electronics Engineering including Digital Electronics, Embedded Systems, System on Chip System Design, FPGAs; Operations Research and 
+I have past experience studying and working on problems in:
 1. Electronics Engineering & Control Systems
    * Modern & Classical Control Systems Theory
    * Modeling of dynamical systems
