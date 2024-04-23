@@ -26,7 +26,7 @@ author:
   pronouns         : # example: "she/her"  
   bio              : "Short biography for the left-hand sidebar"
   location         : "Türkiye"
-  employer         : "Student@MEF University"
+  employer         : "Industrial Engineering BSc. Student & Electrical and Electronics Engineering BSc. graduate @MEF University"
   uri              : # URL
   email            : "akyavasi@mef.edu.tr" 
 
@@ -199,19 +199,12 @@ kramdown:
 
 # Collections
 collections:
-  teaching:
-    output: true
-    permalink: /:collection/:path/
   publications:
     output: true
     permalink: /:collection/:path/
   portfolio:
     output: true
     permalink: /:collection/:path/
-  talks:
-    output: true
-    permalink: /:collection/:path/
-
 
 # Defaults
 defaults:
