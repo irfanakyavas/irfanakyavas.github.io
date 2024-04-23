@@ -1,49 +1,65 @@
 ---
 permalink: /
-title: "academicpages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "About"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-This is the front page of a website that is powered by the [academicpages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the respository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this repository](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads! An older version of this template powers my own personal website at [stuartgeiger.com](http://stuartgeiger.com), which uses [this Github repository](https://github.com/staeiou/staeiou.github.io).
+Hello! I’m İrfan, a fresh Electrical and Electronics Engineer based in Türkiye, currently working towards finishing my Industrial Engineering double major. I value the benefits that having a professional proficient in many disciplines bring to any team. As such, I accumulated knowledge and skills in different fields from very young age. Examples to this include learning;
+* software development at primary school level without any courses, guidance or supervision
+* R and Julia for scientific programming and data analysis/visualisation in addition to MATLAB which was part of the undergraduate curriculum
+* LaTeX to typeset documents
+* Maple and Mathematica for symbolic equation solving and to author calculators/tools concerning Electronics Engineering design/analysis problems
+* CAD software such as SOLIDWORKS to draw 3D printable equipment for experiments involving sensor hardware.
+* Inkscape vector graphics editor software to edit details in documents and to create cheatsheets for exams :) by merging multiple sources of information.
 
-A data-driven personal website
+I aspire to build a career in research where I firmly believe that I can put my multidisciplinary knowledge and acquaintance with tools concerning to those disciplines into good use. I aim to apply methods from different domains and to bridge professionals multiple disciplines. I am considered a quick learner who is always curious and looking to learn more. Currently, I am looking for an opportunity in the form of a graduate program abroad that would serve as preparation towards a PhD.
+
+Fields of Interest
 ======
-Like many other Jekyll-based GitHub Pages templates, academicpages makes you separate the website's content from its form. The content & metadata of your website are in structured markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
+I have past experience studying and working on problems from Modern & Classical Control Systems Theory; Electronics Engineering including Digital Electronics, Embedded Systems, System on Chip System Design, FPGAs; Operations Research and 
+1. Electronics Engineering & Control Systems
+   * Modern & Classical Control Systems Theory
+   * Modeling of dynamical systems
+   * Digital Electronics
+   * Embedded Systems
+   * System on Chip System Design
+   * FPGAs
+   * Electronic test instrument automation and data acquisition
+   * Power electronics
+2. Industrial Engineering
+   * Operations Research (Knapsack Problem, TSP, VRP, Facility Layout Problem)
+   * Modeling of problems
+3. Computer Science & Software Development
+   * Embedded software development
+   * Desktop app development
+   * Deep Learning
+   * Data structures
+   * Data analysis and visualisation
+   * Database design
 
-Many of the features of dynamic content management systems (like Wordpress) can be achieved in this fashion, using a fraction of the computational resources and with far less vulnerability to hacking and DDoSing. You can also modify the theme to your heart's content without touching the content of your site. If you get to a point where you've broken something in Jekyll/HTML/CSS beyond repair, your markdown files describing your talks, publications, etc. are safe. You can rollback the changes or even delete the repository and start over -- just be sure to save the markdown files! Finally, you can also write scripts that process the structured data on the site, such as [this one](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb) that analyzes metadata in pages about talks to display [a map of every location you've given a talk](https://academicpages.github.io/talkmap.html).
+Currently, I am interested in studying & doing research on IC design and Communications Electronics.
 
-Getting started
+Experiences
 ======
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this repository](https://github.com/academicpages/academicpages.github.io) by clicking the "fork" button in the top right. 
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](http://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
-
-Site-wide configuration
+Communications Electronics Engineering Intern at ASELSAN (Türkiye based defense corporation specialising in military electronics)
+Ankara - Türkiye (08/22 - 09/22)
 ------
-The main configuration file for the site is in the base directory in [_config.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_config.yml), which defines the content in the sidebars and other site-wide features. You will need to replace the default variables with ones about yourself and your site's github repository. The configuration file for the top menu is in [_data/navigation.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_data/navigation.yml). For example, if you don't have a portfolio or blog posts, you can remove those items from that navigation.yml file to remove them from the header. 
+* Programmed C# and MATLAB software for measurement data collection with SCPI commands through VISA and data visualisation/analysis solutions.
+* Developed firmware for an STM32 based communication equipment calibration board in C, including writing drivers for ICs/devices on the board and communicating components with SPI/I2C.
 
-Create content & metadata
+Intern Researcher at Istanbul Technical University Aerospace Research Center
+İstanbul - Türkiye (06/22 - 07/22)
 ------
-For site content, there is one markdown file for each type of content, which are stored in directories like _publications, _talks, _posts, _teaching, or _pages. For example, each talk is a markdown file in the [_talks directory](https://github.com/academicpages/academicpages.github.io/tree/master/_talks). At the top of each markdown file is structured data in YAML about the talk, which the theme will parse to do lots of cool stuff. The same structured data about a talk is used to generate the list of talks on the [Talks page](https://academicpages.github.io/talks), each [individual page](https://academicpages.github.io/talks/2012-03-01-talk-1) for specific talks, the talks section for the [CV page](https://academicpages.github.io/cv), and the [map of places you've given a talk](https://academicpages.github.io/talkmap.html) (if you run this [python file](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.py) or [Jupyter notebook](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb), which creates the HTML for the map based on the contents of the _talks directory).
+* Worked with a research group to understand the quadrotor Unmanned Aerial Vehicle (UAV) scientific model. In addition to bridging research teams and drafting reports, I led the battery selection team.
+* Developed Simulink model to solve the Kinetic Battery Model. Successfully implemented the design on FPGA using HDL Coder and tuned the Simulink model according to Modelsim results to improve simulation performance.
+* Verified & tested our design using Modelsim in conjunction with MATLAB and Simulink to automate the process. Explored the simulation performance by comparing two methods of arithmetic (floating point vs. fixed point).
 
-**Markdown generator**
+Background
+======
+I earned my Bachelor of Science degree in Electrical and Electronics Engineering from MEF University in 2023 where I graduated 1st in class among Electrical and Electronics Engineering students. I was the student representative of the department between January 2021 - June 2023. I used to perform as undergraduate teaching assistant for different courses where I enjoyed assisting fellow students from different backgrounds and cultures with lab work while further refining my own skills.
 
-I have also created [a set of Jupyter notebooks](https://github.com/academicpages/academicpages.github.io/tree/master/markdown_generator
-) that converts a CSV containing structured data about talks or presentations into individual markdown files that will be properly formatted for the academicpages template. The sample CSVs in that directory are the ones I used to create my own personal website at stuartgeiger.com. My usual workflow is that I keep a spreadsheet of my publications and talks, then run the code in these notebooks to generate the markdown files, then commit and push them to the GitHub repository.
+My double major at MEF University BSc. in Industrial Engineering  is expected to finish in June 2024.
 
-How to edit your site's GitHub repository
-------
-Many people use a git client to create files on their local computer and then push them to GitHub's servers. If you are not familiar with git, you can directly edit these configuration and markdown files directly in the github.com interface. Navigate to a file (like [this one](https://github.com/academicpages/academicpages.github.io/blob/master/_talks/2012-03-01-talk-1.md) and click the pencil icon in the top right of the content preview (to the right of the "Raw | Blame | History" buttons). You can delete a file by clicking the trashcan icon to the right of the pencil icon. You can also create new files or upload files by navigating to a directory and clicking the "Create new file" or "Upload files" buttons. 
-
-Example: editing a markdown file for a talk
-![Editing a markdown file for a talk](/images/editing-talk.png)
-
-For more info
-------
-More info about configuring academicpages can be found in [the guide](https://academicpages.github.io/markdown/). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
